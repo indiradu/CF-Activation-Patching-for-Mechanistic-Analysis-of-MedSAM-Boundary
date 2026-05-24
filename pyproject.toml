@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "counterfactual-medsam"
+version = "0.1.0"
+description = "Counterfactual activation patching experiments for MedSAM boundary failures."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "Pillow",
+  "PyYAML",
+  "scipy",
+  "scikit-image",
+]
+
+[project.optional-dependencies]
+data = [
+  "kagglehub",
+]
+experiments = [
+  "torch",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+]
+generators = [
+  "diffusers",
+  "transformers",
+  "accelerate",
+]
+dev = [
+  "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

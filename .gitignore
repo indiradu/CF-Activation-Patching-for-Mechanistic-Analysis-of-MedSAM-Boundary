@@ -1,0 +1,53 @@
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Protected data and generated artifacts
+data/
+datasets/
+external/
+checkpoints/
+models/
+weights/
+outputs/
+/results/
+runs/
+wandb/
+mlruns/
+logs/
+
+# Medical image/model formats that should not be committed by accident
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.nrrd
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# Patient-derived qualitative panels are omitted from the public code package.
+paper/assets/figure_qualitative_generators_*.png
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc

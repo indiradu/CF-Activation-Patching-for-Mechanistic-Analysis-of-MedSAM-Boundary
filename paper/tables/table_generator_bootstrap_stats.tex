@@ -1,0 +1,15 @@
+\begin{tabular}{llllll}
+\toprule
+comparison & metric & mean diff & 95% CI & p & better frac \\
+\midrule
+cfseg vs original & Dice & 0.154 & [0.113, 0.198] & 3.61e-12 & 0.88 \\
+cfseg vs original & Boundary F1 & 0.068 & [0.042, 0.095] & 2.97e-05 & 0.66 \\
+cfseg vs original & HD95 & -37.871 & [-54.456, -21.568] & 4.21e-05 & 0.74 \\
+cxr_sd vs original & Dice & 0.101 & [0.062, 0.146] & 8.78e-07 & 0.80 \\
+cxr_sd vs original & Boundary F1 & 0.007 & [-0.009, 0.024] & 7.02e-01 & 0.44 \\
+cxr_sd vs original & HD95 & -21.379 & [-33.852, -9.664] & 1.15e-03 & 0.68 \\
+cfseg vs cxr_sd & Dice & 0.052 & [0.033, 0.072] & 1.21e-06 & 0.78 \\
+cfseg vs cxr_sd & Boundary F1 & 0.061 & [0.040, 0.082] & 1.86e-06 & 0.76 \\
+cfseg vs cxr_sd & HD95 & -16.493 & [-30.810, -2.657] & 2.12e-02 & 0.72 \\
+\bottomrule
+\end{tabular}

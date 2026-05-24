@@ -1,0 +1,4 @@
+feature_set,n_cases,n_features,positive_cases,roc_auc,average_precision,accuracy
+output_plus_activation,50,25,25,0.7712,0.7677906530094645,0.72
+output_shape,50,5,25,0.7488,0.7844636701613998,0.68
+activation_diff,50,20,25,0.7296,0.6618070484141957,0.7

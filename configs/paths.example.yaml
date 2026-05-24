@@ -1,0 +1,29 @@
+# Copy to configs/paths.local.yaml and edit locally.
+# Do not commit configs/paths.local.yaml if it contains private paths.
+
+project_root: /path/to/counterfactual_medsam
+
+data:
+  mimic_cxr_jpg_root: /path/to/mimic-cxr-jpg/2.1.0
+  chexmask_root: /path/to/chexmask
+  manifests_root: /path/to/project/data/manifests
+
+external_repos:
+  medsam: /path/to/external/MedSAM
+  cf_seg: /path/to/external/CF-Seg
+  sam_med2d: /path/to/external/SAM-Med2D
+  prism: /path/to/external/PRISM
+
+checkpoints:
+  medsam_vit_b: /path/to/checkpoints/medsam_vit_b.pth
+  cf_seg_causal_gen: /path/to/checkpoints/cf_seg/causal-gen
+  cf_seg_unet: /path/to/checkpoints/cf_seg/chexmask-seg
+  sam_med2d: /path/to/checkpoints/sam_med2d
+
+outputs:
+  counterfactuals: /path/to/outputs/counterfactuals
+  medsam_masks: /path/to/outputs/medsam_masks
+  activations: /path/to/outputs/activations
+  patching_runs: /path/to/outputs/patching_runs
+  figures: /path/to/outputs/figures
+
