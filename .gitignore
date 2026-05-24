@@ -38,9 +38,6 @@ logs/
 *.pt
 *.safetensors
 
-# Patient-derived qualitative panels are omitted from the public code package.
-paper/assets/figure_qualitative_generators_*.png
-
 # LaTeX build products
 *.aux
 *.bbl

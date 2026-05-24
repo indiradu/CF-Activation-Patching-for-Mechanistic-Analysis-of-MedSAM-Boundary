@@ -22,11 +22,10 @@ representations carry more corrective signal than a thin boundary band alone.
 
 - `src/counterfactual_medsam/`: reusable project code.
 - `scripts/`: command-line entrypoints for manifests, MedSAM inference,
-  activation patching, statistics, and paper assets.
+  activation patching, statistics, and result-figure/table generation.
 - `tests/`: lightweight unit tests.
 - `configs/`: path template examples.
 - `cluster/`: sanitized Slurm templates.
-- `paper/`: LNCS source, result tables, and non-patient figures.
 - `reproducibility/`: aggregate CSV outputs used to verify paper results.
 - `docs/`: data access notes and high-level runbook.
 
@@ -38,9 +37,9 @@ checkpoints. These files must be restored locally according to the licenses and
 access rules of NIH ChestX-ray14, CheXMask, MedSAM, CF-Seg, and the diffusion
 generator used in the paper.
 
-The paper source contains a fallback placeholder for the qualitative CXR panel
-because that panel contains patient-derived pixels and is not part of this
-public code package.
+The manuscript source is intentionally not included here so the paper can be
+revised independently during review. This repository is the code and aggregate
+results package.
 
 ## Quick Start
 
@@ -62,9 +61,5 @@ The main aggregate results are already included under
 
 ## Paper
 
-The LNCS source is in `paper/main.tex`. To compile it, place Springer's
-`llncs.cls` in `paper/` or install it in your TeX path, then run your preferred
-LaTeX build command from `paper/`.
-
-The paper currently states that implementation and aggregate outputs will be
-released publicly after review.
+The paper is submitted separately. After review, this repository can be linked
+from the manuscript as the public implementation and aggregate-results release.
