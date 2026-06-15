@@ -25,4 +25,3 @@ download_one "LICENSE.txt"
 download_one "SHA256SUMS.txt"
 
 echo "CheXMask NIH subset ready at ${ROOT}"
-

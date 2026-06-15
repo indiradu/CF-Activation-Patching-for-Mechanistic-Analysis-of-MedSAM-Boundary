@@ -44,7 +44,8 @@ python scripts/bootstrap_statistical_tables.py \
   --output-dir outputs/statistics/nih_effusion_50_cfseg_controls_bw32
 ```
 
-Result figures and compact tables can be regenerated from completed CSVs with:
+Paper assets and compact LaTeX tables can be regenerated from completed CSVs
+with:
 
 ```bash
 python scripts/make_paper_assets.py

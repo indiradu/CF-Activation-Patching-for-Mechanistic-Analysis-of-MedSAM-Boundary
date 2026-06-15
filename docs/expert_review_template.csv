@@ -1,0 +1,13 @@
+review_case_id,case_id,selection_reason,original_boundary_f1,cfseg_boundary_f1,cfseg_delta_boundary_f1,original_hd95,cfseg_hd95,cfseg_delta_hd95,mask_a_boundary_plausibility_1_5,mask_b_boundary_plausibility_1_5,mask_c_boundary_plausibility_1_5,mask_d_boundary_plausibility_1_5,mask_e_boundary_plausibility_1_5,best_mask_letter,anatomy_preservation_1_5,artifact_severity_1_5,free_text_notes,reviewer_initials
+R01,nih_00000023_002,top_cfseg_boundary_f1_gain,0.127481,0.419855,0.292375,92.004891,16.031220,-75.973672,,,,,,,,,,
+R02,nih_00000061_012,top_cfseg_boundary_f1_gain,0.065324,0.313654,0.248330,135.364323,31.144823,-104.219500,,,,,,,,,,
+R03,nih_00000041_006,top_cfseg_boundary_f1_gain,0.085729,0.307726,0.221997,135.473779,24.186773,-111.287006,,,,,,,,,,
+R04,nih_00000056_001,top_cfseg_boundary_f1_gain,0.265434,0.471540,0.206106,133.296282,20.243515,-113.052767,,,,,,,,,,
+R05,nih_00000061_002,top_cfseg_boundary_f1_gain,0.159614,0.361299,0.201684,200.593594,47.354887,-153.238707,,,,,,,,,,
+R06,nih_00000061_017,top_cfseg_boundary_f1_gain,0.025232,0.210315,0.185083,93.735798,35.000000,-58.735798,,,,,,,,,,
+R07,nih_00000061_007,lowest_cfseg_boundary_f1_delta,0.200530,0.095158,-0.105372,108.538465,113.117624,4.579158,,,,,,,,,,
+R08,nih_00000032_032,lowest_cfseg_boundary_f1_delta,0.157075,0.070038,-0.087037,186.947051,170.414201,-16.532849,,,,,,,,,,
+R09,nih_00000012_000,lowest_cfseg_boundary_f1_delta,0.246977,0.172224,-0.074753,87.262529,28.635642,-58.626887,,,,,,,,,,
+R10,nih_00000032_001,lowest_cfseg_boundary_f1_delta,0.100800,0.026630,-0.074170,170.961475,150.495012,-20.466464,,,,,,,,,,
+R11,nih_00000032_035,lowest_cfseg_boundary_f1_delta,0.175359,0.101571,-0.073788,141.321265,130.970989,-10.350276,,,,,,,,,,
+R12,nih_00000013_004,lowest_cfseg_boundary_f1_delta,0.094488,0.046637,-0.047852,139.615533,133.939537,-5.675995,,,,,,,,,,

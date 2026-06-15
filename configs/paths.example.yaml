@@ -26,4 +26,3 @@ outputs:
   activations: /path/to/outputs/activations
   patching_runs: /path/to/outputs/patching_runs
   figures: /path/to/outputs/figures
-

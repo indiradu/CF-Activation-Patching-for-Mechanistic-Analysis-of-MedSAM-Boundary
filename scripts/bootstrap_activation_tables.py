@@ -129,6 +129,7 @@ def main() -> None:
         ("nonmatched_cf_to_original", "whole", "nonmatched_whole"),
         ("matched_cf_to_original", "background", "matched_background"),
         ("matched_cf_to_original", "boundary", "matched_boundary"),
+        ("matched_cf_to_original", "interior", "matched_interior"),
         ("matched_cf_to_original", "random_like_boundary", "matched_random_like_boundary"),
         ("matched_cf_to_original", "random_like_background", "matched_random_like_background"),
     ]
@@ -159,6 +160,7 @@ def main() -> None:
         ("matched_whole", "reverse_whole"),
         ("nonmatched_whole", "matched_whole"),
         ("matched_boundary", "matched_background"),
+        ("matched_interior", "matched_background"),
         ("matched_random_like_boundary", "matched_boundary"),
         ("matched_random_like_background", "matched_background"),
     ]

@@ -23,4 +23,3 @@ echo "$pid" > "$PID_FILE"
 
 echo "Started NIH ChestX-ray14 download with PID $pid"
 echo "Log: $LOG_FILE"
-

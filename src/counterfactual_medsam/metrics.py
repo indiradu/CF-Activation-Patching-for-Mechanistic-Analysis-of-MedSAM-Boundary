@@ -101,4 +101,3 @@ def evaluate_mask_pair(
         "hd95": hd95(prediction, reference),
         "area_error": area_error(prediction, reference),
     }
-

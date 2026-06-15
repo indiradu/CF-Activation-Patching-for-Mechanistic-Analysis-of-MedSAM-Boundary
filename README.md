@@ -5,8 +5,8 @@ workshop paper on mechanistic probing of MedSAM boundary failures with
 counterfactual chest X-rays.
 
 Working title:
-**Counterfactual Activation Patching Reveals Context-Mediated Boundary Failures
-in MedSAM**.
+**Counterfactual Activation Patching as a Mechanistic Probe of Boundary
+Failures in MedSAM**.
 
 ## Main Claim
 
@@ -16,7 +16,9 @@ that causally affects lung-boundary segmentation. Matched counterfactual
 activation patching restores counterfactual-like segmentation behavior, reverse
 patching restores original-like failure, and non-matched donors do not reproduce
 the effect. Region controls suggest that broader context/background
-representations carry more corrective signal than a thin boundary band alone.
+representations can carry more corrective signal than a thin boundary band
+alone, so the boundary failure is interpreted as context-mediated rather than
+purely local edge loss.
 
 ## Repository Layout
 
@@ -29,6 +31,17 @@ representations carry more corrective signal than a thin boundary band alone.
 - `reproducibility/`: aggregate CSV outputs used to verify paper results.
 - `docs/`: data access notes and high-level runbook.
 
+## Included Results
+
+- 50-case CF-Seg and CXR-SD generator comparison summaries.
+- 200-case NIH ChestX-ray14 pleural-effusion CF-Seg activation-patching
+  summaries.
+- 200-case CXR-SD diffusion counterfactual summaries.
+- Supervisor-requested robustness checks for prompt-box jitter, boundary-band
+  width sweeps, and interior/background control comparisons.
+- Failure-prediction summary tables using output and activation-derived
+  features.
+
 ## Data Policy
 
 This release intentionally does not include raw chest X-rays, CheXMask masks,
@@ -37,9 +50,10 @@ checkpoints. These files must be restored locally according to the licenses and
 access rules of NIH ChestX-ray14, CheXMask, MedSAM, CF-Seg, and the diffusion
 generator used in the paper.
 
-The manuscript source is intentionally not included here so the paper can be
-revised independently during review. This repository is the code and aggregate
-results package.
+The manuscript source, compiled PDF, and qualitative CXR figure panels are
+intentionally not included here so the paper can be revised independently during
+review and patient-derived pixels are not duplicated in the public code release.
+This repository is the code and aggregate-results package.
 
 ## Quick Start
 

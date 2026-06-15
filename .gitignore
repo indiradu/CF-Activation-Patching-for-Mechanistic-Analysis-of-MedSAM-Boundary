@@ -9,7 +9,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
 
 # Protected data and generated artifacts
 data/
@@ -23,7 +25,14 @@ outputs/
 runs/
 wandb/
 mlruns/
-logs/
+
+# Historical run notes may contain local cluster paths or account names.
+# Keep cleaned summaries in reproducibility/ instead.
+docs/baselines/
+
+# Patient-derived qualitative panels are included in the submitted PDF but
+# should not be pushed to an anonymous public code repository by accident.
+paper/assets/figure_qualitative_generators_*.png
 
 # Medical image/model formats that should not be committed by accident
 *.dcm
@@ -38,6 +47,14 @@ logs/
 *.pt
 *.safetensors
 
+# Cluster/runtime noise
+logs/
+*.out
+*.err
+slurm-*.out
+.DS_Store
+Icon?
+
 # LaTeX build products
 *.aux
 *.bbl
@@ -48,3 +65,10 @@ logs/
 *.out
 *.synctex.gz
 *.toc
+
+# Self-contained package prepared for later public release.
+/github_release/
+
+# Local paper-working notes and unused patient-derived panels.
+paper_revision/supervisor_feedback_extracted.txt
+paper_revision/assets/figure_qualitative_generators_*.png

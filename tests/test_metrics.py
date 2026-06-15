@@ -22,4 +22,3 @@ def test_partial_overlap_metrics() -> None:
     assert 0.0 < dice_score(pred, ref) < 1.0
     assert 0.0 < iou_score(pred, ref) < 1.0
     assert hd95(pred, ref) > 0.0
-

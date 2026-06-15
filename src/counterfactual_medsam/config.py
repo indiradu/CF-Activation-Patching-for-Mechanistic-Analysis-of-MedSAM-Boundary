@@ -26,4 +26,3 @@ def flatten_mapping(mapping: Mapping[str, Any], prefix: str = "") -> dict[str, A
         else:
             flat[full_key] = value
     return flat
-

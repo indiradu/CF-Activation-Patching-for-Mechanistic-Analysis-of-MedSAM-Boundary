@@ -25,4 +25,3 @@ clone_if_missing "https://github.com/OpenGVLab/SAM-Med2D.git" "${ROOT}/SAM-Med2D
 clone_if_missing "https://github.com/Amarkr1/PRISM.git" "${ROOT}/PRISM"
 
 echo "External repositories are ready under ${ROOT}"
-

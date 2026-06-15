@@ -80,4 +80,3 @@ NIH ChestX-ray14 images
 ```
 
 This lets us keep the workshop contribution stable: **counterfactual activation patching for MedSAM boundary-failure mechanisms**.
-
