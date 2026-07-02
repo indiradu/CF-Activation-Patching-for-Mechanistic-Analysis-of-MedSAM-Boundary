@@ -1,12 +1,12 @@
-# Counterfactual Activation Patching for MedSAM
+# Counterfactual Activation Patching and Monitoring for MedSAM
 
 This repository contains code and aggregate results for a MI4MedFM 2026
 workshop paper on mechanistic probing of MedSAM boundary failures with
 counterfactual chest X-rays.
 
-Working title:
-**Counterfactual Activation Patching as a Mechanistic Probe of Boundary
-Failures in MedSAM**.
+Paper title:
+**Counterfactual Activation Patching and Diffusion-Sampled Monitoring of
+Boundary Failures in MedSAM**.
 
 ## Main Claim
 
@@ -37,8 +37,8 @@ purely local edge loss.
 - 200-case NIH ChestX-ray14 pleural-effusion CF-Seg activation-patching
   summaries.
 - 200-case CXR-SD diffusion counterfactual summaries.
-- Supervisor-requested robustness checks for prompt-box jitter, boundary-band
-  width sweeps, and interior/background control comparisons.
+- Additional robustness checks for prompt-box jitter, boundary-band width
+  sweeps, and interior/background control comparisons.
 - Failure-prediction summary tables using output and activation-derived
   features.
 
